@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #turtle
+#dans notebook ??
 pip install ipyturtle
 jupyter nbextension enable --py --sys-prefix ipyturtle
 

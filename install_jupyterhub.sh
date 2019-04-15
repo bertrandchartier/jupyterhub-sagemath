@@ -1,9 +1,11 @@
 #!/bin/bash
 
-#install paquet
+#preconf
 apt-get update
 apt-get upgrade -y
-apt-get install -y curl software-properties-common
+apt-get install -y git curl software-properties-common
+
+#install paquet
 apt-get install -y python3-pip
 pip3 install jupyterhub
 Pip3 install notebook
